@@ -1,0 +1,58 @@
+/*Content within the body tage in webpage.*/
+body {
+	font-family: Arial, sans-serif; /*Style of the font on webpage.*/
+	margin: 0;
+	padding: 0;
+	background-color: #7b7878; /*Background colors.*/
+}
+/*Content inside header at the top of webpage.*/
+header {
+	background-color: #238215; /*Background colors.*/
+	color: #000000; /*Text color.*/
+	padding: 1em;
+	text-align: center; /*Text alignment within webpage.*/
+	border: 1px, #000000; /*Border size and color.*/
+}
+/*Stylization of the navigation bar at the top of webpage.*/
+nav {
+	text-align: center; /*Text alignment.*/
+	color: #ffffff; /*Text color*/
+	border-bottom: #000000 solid 2px; /*Border of the navigation bar (bottom only)*/
+	border-top: #000000 solid 2px; /*Border of the navigation bar (top only)*/
+	background-color: #238215; /*Background color.*/
+}
+nav a {
+	text-decoration: none;
+	color: #ffffff; /*Text color.*/
+	margin: 1em; /*Spacing.*/
+}
+/*Main content of webpage.*/
+main {
+	max-width: 800px; /*Maximum width of main content.*/
+	margin: 2em auto;
+	/*padding: 1em;*/ /*Internal spacing.*/
+	/*background-color: #525151;*/ /*Background color.*/
+	/*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/ /*Shadow effect.*/
+}
+/*Footer appearing on bottom of webpage.*/
+footer {
+	text-align: center; /*Text alignment.*/
+	padding: 1em;
+	background-color: #238215; /*Background color.*/
+	color: #000000; /*Text color. */
+	bottom: 0;
+	width: 100%;
+	border-top: #000000 solid 2px; /*Border color, style and size.*/
+}
+article:last-of-type {
+	border-bottom: none; /* Remove divider after the last article */
+}
+article {
+	margin: 35px 0; /* Adds vertical spacing between articles */
+	padding: 15px; /* Creates internal spacing within articles */
+	background-color: #f9f9f9; /* Optional for better visibility */
+	border: 2px solid #000000; /* Optional border styling */
+}
+h2 {
+	text-align: center; /*Text alignment.*/
+}

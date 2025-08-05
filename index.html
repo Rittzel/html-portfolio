@@ -1,57 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-</head>
-<body>
-    <h1>Keagan Coss</h1>
-    <hr />
-    <h2>Summary</h2>
-    <ul>
-        <li>
-            <p>I am a new web developer who is still in the learning process, however I am very dedicated and hard working.</p>
-        </li>
-    </ul>
-    <hr />
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <p>I graduated from Chesaning Union High School located in Chesaning, Michigan.</p>
-        </li>
-    </ul>
-    <hr />
-    <h2>Experience</h2>
-    <p><b>Currently employed at Avancez Industries - 4444 Maple Ave. Flint, Michigan.</b></p>
-    <ul>
-        <li><p>I do not have any professional experiences as a web developer as of yet.</p></li>
-        <li><p>I have been practicing coding for many years and just recently took the plunge into taking it more seriously.</p></li>
-        <li><p><b>Automotive Manufacturing Line Lead.</b></p></li>
-        <p>December 2015 - December 2022</p>
-        <ol>
-            <li><p>Managed thirteen co-workers to fill a GM required weekly quota.</p></li>
-            <li><p>Maintain a consistent production speed.</p></li>
-            <li><p>TWI trained by General Motors.</p></li>
-            <li><p>Very strong leader ship skills.</p></li>
-            <li><p>Operate HMI to populate production manifests.</p></li>
-        </ol>
-        <li><p><b>Fork Lift Operator.</b></p></li>
-        <p>December 2015 - Present</p>
-        <ol>
-            <li><p>Provide parts for varius manufactoring lines within the warehouse.</p></li>
-            <li><p>Operate heavy machinery.</p></li>
-            <li><p>Operate effectively and saftely in close proximity to co-workers.</p></li>
-            <li><p>OSHA certifited and heavy equipment licensed.</p></li>
-        </ol>
-        <li><p><b>Line Operator. (Manufacturing).</b></p></li>
-        <p>December 2015 - Present.</p>
-        <ol>
-            <li><p>Ensure quality production.</p></li>
-            <li><p>Meet hourly production rate set by General Motors.</p></li>
-            <li><p>Inspection of all parts being produced.</p></li>
-            <li><p>Meeting weekly production quota required and set by General Motors.</p></li>
-        </ol>
-    </ul>
-</body>
+	<!--Beginning of boilerplate.-->
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--Used for dynamic sizing regardless of device settings.-->
+		<title>My Resume</title>
+	</head>
+	<!--Beginning of main content.-->
+	<body>
+		<section id="top">
+			<header>
+				<h1>Keagan Coss</h1>
+				<p>Thank you for taking a look at my resume!</p>
+			</header>
+		</section>
+		<!--Beginning of navigation bar (used for jumping around within same page).-->
+			<nav>
+				<p><b>Jump to:</p></b>
+				<a href="#Careers">Careers</a> <!--"#" prevents links from opening a new window and allows for jumping within same webpage.-->
+				<a href="#College">College</a>
+				<a href="#Skills">Skills</a>
+                <a href="#Traits">Traits</a>
+				<a href="#Accomplishments">Accomplishments</a>
+			</nav>
+			<!--Main starting.-->
+		<main>
+			<!--Beginning of Careers.-->
+			<section id="Careers"> <!--id for page jumping.-->
+                <article>
+				<h2>Careers and Employment</h2>
+				<hr>
+				<br>
+				<p>Here are some of my past careers and employers.</p>
+				<br>
+                <ol>
+                    <li>
+                        <b>2023 - Present. 1st Shift.</b>
+					</li>
+					<ul>
+						<li>
+							<p>Line Operator at Avancez Industries, Flint MI.</p>
+						</li>
+					</ul>
+                </ol>
+				<h4>Responsibilies:</h4>
+				<ul>
+					<li>
+						<p><b>Fullfill daily quota amounts for assembled parts.</b></p>
+					</li>
+					<li>
+						<p><b>Maintain an hourly goal of amounts of parts assembled.</b></p>
+					</li>
+					<li>
+						<p><b>Maintain expectations for cleanliness of work stations.</b></p>
+					</li>
+					<li>
+						<p><b>Uphold the quality standards for products produced according to General Motors.</b></p>
+					</li>
+				</ul>
+				<br>
+				<ol>
+					<li>
+						<b>2022 - 2023. 2nd Shift.</b>
+					</li>
+					<ul>
+						<li>
+							<p>Heavy Equipment Operator at Avancez Industries, Flint MI.</p>
+						</li>
+					</ul>
+				</ol>
+				<h4>Responsibilies:</h4>
+				<ul>
+					<li>
+						<p><b>Maintain Forklift operation license.</b></p>
+					</li>
+					<li>
+						<p><b>Operate equipment safely within tight spaces and foot traffic.</b></p>
+					</li>
+					<li>
+						<p><b>Maneuver large loads and feed loads into industrial oven for curing process.</b></p>
+					</li>
+					<li>
+						<p><b>Unload truck trailers with raw materials to supply procution lines.</b></p>
+					</li>
+					<li>
+						<p><b>Back load truck trailers with finished goods for delivery to Ford Motors.</b></p>
+					</li>
+				</ul>
+				<br>
+				<ol>
+					<li>
+						<b>2016 - 2022. 2nd Shift.</b>
+					</li>
+					<ul>
+						<li>
+							<p>Line Leader at Avancez Industries, Flint MI.</p>
+						</li>
+					</ul>
+				</ol>
+				<h4>Responsibilies:</h4>
+				<ul>
+					<li>
+						<p><b>Manage twelve other individuals.</b></p>
+					</li>
+					<li>
+						<p><b>Delagate job responsiblities among individuals.</b></p>
+					</li>
+					<li>
+						<p><b>Provide training to other employees to perform expected tasks.</b></p>
+					</li>
+					<li>
+						<p><b>Record keeping for completed jobs per hour.</b></p>
+					</li>
+					<li>
+						<p><b>Maintain projected rate for expected completed jobs per hour.</b></p>
+					</li>
+				</ul>
+				<a href="#top">Back to Top</a>
+				<hr>
+				<br><br><br>
+				</article>
+			</section>
+			<!--Beginning of College.-->
+			<section id="College"> <!--id for page jumping-->
+		<article>
+			<h2>College</h2>
+			<hr>
+			<br>
+			<p>Here are some of my acedemics.</p>
+			<br>
+			<ol>
+				<li>
+					<p><b>2025 - Present.</b></p>
+				</li>
+				<ul>
+					<li>
+						<p>Bachelors in Computer Science at Western Govenors University.</p>
+					</li>
+				</ul>
+			</ol>
+			<ul>
+				<li>
+					<h4>List of Classes:</h4>
+					<ul>
+						<li>
+							<p>None.</p>
+						</li>
+						<li>
+							<p>None.</p>
+						</li>
+						<li>
+							<p>None.</p>
+						</li>
+						<li>
+							<p>None.</p>
+						</li>
+						<li>
+							<p>None.</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<br>
+			<a href="#top">Back to Top</a> <!--Internal link for returning back to top of the page.-->
+			<hr>
+			<br><br><br>
+		</article>
+			</section>
+			<!--Beginning of Skills.-->
+			<section id="Skills"> <!--id for page jumping.-->
+			<article>
+				<h2>Skills</h2>
+				<hr>
+				<br>
+				<p>Here is a list of the skills and talents.</p>
+				<br>
+				<ul>
+					<li>
+						<p>Working well with others.</p>
+					</li>
+					<li>
+						<p>Working within deadlines.</p>
+					</li>
+					<li>
+						<p>Keeping notes/records.</p>
+					</li>
+					<li>
+						<p>Doing work quickly but safely.</p>
+					</li>
+					<li>
+						<p>Very high attention to detail.</p>
+					</li>
+				</ul>
+				<a href="#top">Back to Top</a> <!--Interal link for returning back to top of page.-->
+				<hr>
+				<br><br><br>
+			</article>
+			</section>
+			<!--Beginning of Traits.-->
+			<section id="Traits"> <!--id for page jumping.-->
+				<article>
+					<h2>Traits</h2>
+					<hr>
+					<br>
+					<p>Here is a list of my personal traits.</p>
+					<br>
+					<ul>
+						<li>
+							<p>Works well under pressure.</p>
+						</li>
+						<li>
+							<p>Good with time restraints.</p>
+						</li>
+						<li>
+							<p>Easily find solutions to problems.</p>
+						</li>
+						<li>
+							<p>Willing to reach out to others for help.</p>
+						</li>
+						<li>
+							<p>Willing to help others who need it.</p>
+						</li>
+					</ul>
+					<a href="#top">Back to Top</a> <!--Interal link for returning back to top of page.-->
+					<hr>
+					<br><br><br>
+				</article>
+			</section>
+			<!--Beginning of Accomplishments.-->
+			<section id="Accomplishments"> <!--id for page jumping.-->
+				<article>
+					<h2>Accomplishments</h2>
+					<hr>
+					<br>
+					<p>Here is a list of my personal accomplishments!</p>
+					<br>
+					<ol>
+						<li>
+							<p>High School Diploma.</p>
+						</li>
+						<li>
+							<p>Bachelors degree in CS</p>
+						</li>
+						<li>
+							<p>GM TWI certified training.</p>
+						</li>
+						<li>
+							<p>HTML: 5 Certification.</p>
+						</li>
+						<li>
+							<p>CSS Certification.</p>
+						</li>
+						<li>
+							<p>JavaScript Certification.</p>
+						</li>
+						<li>
+							<p>Python Certification.</p>
+						</li>
+						</ol>
+						<ul>
+							<li>
+								<h4>Have experience with:</h4>
+							</li>
+						</ul>
+						<ol>
+						<li>
+							<p>Linux OS (Debian Based)</p>
+						</li>
+						<li>
+							<p>Microsoft Windows 11</p>
+						</li>
+						<li>
+							<p>Apple MacOS</p>
+						</li>
+						</ol>
+					<br>
+					<a href="#top">Back to Top</a> <!--Internal link for returning back to top of page.-->
+					<hr>
+					<br><br><br>
+				</article>
+			</section>
+			<br>
+		</main>
+		<!--Beginning of footer on bottom of page.-->
+		<footer>
+			<p>&copy; 2025 Keagan Coss Resume. All rights reserved.</p>
+		</footer>
+	</body>
 </html>
